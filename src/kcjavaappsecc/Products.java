@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author SCC-COLLEGE
  */
 public class Products {
-    public Product inputProductDetails() {
+    public Product inputProdtDetails() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter Product ID: ");

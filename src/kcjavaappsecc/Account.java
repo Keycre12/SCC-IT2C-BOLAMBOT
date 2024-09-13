@@ -10,5 +10,20 @@ package kcjavaappsecc;
  * @author SCC-COLLEGE
  */
 public class Account {
-    
+    class Acc{
+        int id; 
+        String fname; 
+        String lname;
+        String email;
+        String uname;
+        String pass;
+        
+        Acc(int id, String fname, String lname, String email, String uname, String pass){
+            this.id = id;
+            this.fname = fname;
+            this.email = email;
+            this.uname = uname;
+            this.pass = pass;
+        }
+    }
 }

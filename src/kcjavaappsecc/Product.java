@@ -4,7 +4,7 @@ package kcjavaappsecc;
 
 public class Product {
     
-      int id, sold, stock;
+    int id, sold, stock;
     double price;
     String name;
     
